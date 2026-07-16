@@ -78,7 +78,6 @@ docs/_build/
 # Environments
 env
 env3
-.env
 .venv
 env/
 venv/
@@ -96,7 +95,6 @@ dev-env-setup-progress
 *~
 
 # vscode
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 
@@ -150,3 +148,4 @@ CLAUDE.local.md
 
 .playwright/
 .playwright-cli/
+config.bat

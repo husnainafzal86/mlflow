@@ -5,7 +5,7 @@
   "scripts": {
     "preinstall": "npx only-allow npm",
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "node api.js && docusaurus start",
     "preview": "npm run build && npm run serve",
     "build": "DOCUSAURUS_IGNORE_SSG_WARNINGS=true docusaurus build",
     "build-api-docs": "uv run --group docs --with-requirements ../requirements/torch.txt --extra gateway scripts/build-api-docs.py --with-r && tsx scripts/update-api-modules.ts",

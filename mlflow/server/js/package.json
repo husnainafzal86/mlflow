@@ -2,7 +2,7 @@
   "name": "@mlflow/mlflow",
   "version": "0.1.0",
   "scripts": {
-    "start": "craco start",
+    "start": "node api.js && craco start",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "test": "craco --max_old_space_size=8192 test --env=jsdom --colors --watchAll=false",
