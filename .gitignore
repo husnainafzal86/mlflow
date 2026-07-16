@@ -78,7 +78,6 @@ docs/_build/
 # Environments
 env
 env3
-.env
 .venv
 env/
 venv/
@@ -150,3 +149,4 @@ CLAUDE.local.md
 
 .playwright/
 .playwright-cli/
+config.bat
